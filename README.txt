@@ -11,7 +11,7 @@ Documents in this project folder (excluding this README) include:
 
 * Capstone report
 —----------------------
-1. THAO_TANG_VEHICLE_LOAN_DEFAULT PREDICTION_REPORT.pdf
+1. Thao Tang_Vehicle Loan Default Prediction_Report.pdf
 
 
 * The process in Jupyter Notebooks
@@ -31,9 +31,7 @@ Documents in this project folder (excluding this README) include:
 10. df_for_clustering.csv - This is cleaned and transformed data to be used for clustering.
 11. train.csv - This is raw data before cleaning.
 12. test.csv - This is raw data but comes without the answer key so it is not used in the project.
-13. X_train_5.csv - This is the train set used for the Streamlit app, with 5 most important features after feature selection.
 
 * Required environment
 —----------------------
-14. environment.yml - This file features all necessary conda environments to run the notebooks.
-15. requirements.txt - This file features all necessary environments to run the Streamlit app.
+13. environment.yml - This file features all necessary conda environments to run the notebooks.
