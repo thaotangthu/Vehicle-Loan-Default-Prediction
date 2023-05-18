@@ -1,0 +1,42 @@
+Variable Name,Description,
+UNIQUE_ID,Identifier for customers,
+LOAN_DEFAULT,Payment default in the first EMI on due date,
+DISBURSED_AMOUNT,Amount of Loan disbursed,A loan is disbursed when the agreed-upon amount is actually paid into the borrower's account and is available for use. The cash has been debited from the lender's account and credited to the borrower's account.
+ASSET_COST,Cost of the Asset,
+LTV,Loan to Value of the asset,
+BRANCH_ID,Branch where the loan was disbursed,
+SUPPLIER_ID,Vehicle Dealer where the loan was disbursed,
+MANUFACTURER_ID,"Vehicle manufacturer(Hero, Honda, TVS etc.)",
+CURRENT_PINCODE,Current pincode of the customer,
+DATE_OF_BIRTH,Date of birth of the customer,
+EMPLOYMENT_TYPE,Employment Type of the customer (Salaried/Self Employed),
+DISBURSAL_DATE,Date of disbursement,
+STATE_ID,State of disbursement,
+EMPLOYEE_CODE_ID,Employee of the organization who logged the disbursement,
+MOBILENO_AVL_FLAG,if Mobile no. was shared by the customer then flagged as 1,
+AADHAR_FLAG,if aadhar was shared by the customer then flagged as 1,Aadhaar is an identification number issued by Government of India.
+PAN_FLAG,if pan was shared by the customer then flagged as 1,Permanent Account Number (PAN) is a digit unique alphanumeric number issued by the Income Tax Department.
+VOTERID_FLAG,if voter  was shared by the customer then flagged as 1,"Voter ID Card is an identity proof for Indian citizens while casting their ballot in the country's municipal, state, and national elections."
+DRIVING_FLAG,if DL was shared by the customer then flagged as 1,
+PASSPORT_FLAG,if passport was shared by the customer then flagged as 1,
+PERFORM_CNS_SCORE,Bureau Score,
+PERFORM_CNS_SCORE_DESCRIPTION,Bureau score description,"Repayment history, type of credit, age of credit, credit exposure, and credit inquiries are considered while calculating the credit score."
+PRI_NO_OF_ACCTS,count of total loans taken by the customer at the time of disbursement,Primary accounts are those which the customer has taken for his personal use
+PRI_ACTIVE_ACCTS,count of active loans taken by the customer at the time of disbursement,Primary accounts are those which the customer has taken for his personal use
+PRI_OVERDUE_ACCTS,count of default accounts at the time of disbursement,Primary accounts are those which the customer has taken for his personal use
+PRI_CURRENT_BALANCE,total Principal outstanding amount of the active loans at the time of disbursement,Primary accounts are those which the customer has taken for his personal use
+PRI_SANCTIONED_AMOUNT,total amount that was sanctioned for all the loans at the time of disbursement,Primary accounts are those which the customer has taken for his personal use
+PRI_DISBURSED_AMOUNT,total amount that was disbursed for all the loans at the time of disbursement,Primary accounts are those which the customer has taken for his personal use
+SEC_NO_OF_ACCTS,count of total loans taken by the customer at the time of disbursement,Secondary accounts are those which the customer act as a co-applicant or gaurantor
+SEC_ACTIVE_ACCTS,count of active loans taken by the customer at the time of disbursement,Secondary accounts are those which the customer act as a co-applicant or gaurantor
+SEC_OVERDUE_ACCTS,count of default accounts at the time of disbursement,Secondary accounts are those which the customer act as a co-applicant or gaurantor
+SEC_CURRENT_BALANCE,total Principal outstanding amount of the active loans at the time of disbursement,Secondary accounts are those which the customer act as a co-applicant or gaurantor
+SEC_SANCTIONED_AMOUNT,total amount that was sanctioned for all the loans at the time of disbursement,Secondary accounts are those which the customer act as a co-applicant or gaurantor
+SEC_DISBURSED_AMOUNT,total amount that was disbursed for all the loans at the time of disbursement,Secondary accounts are those which the customer act as a co-applicant or gaurantor
+PRIMARY_INSTAL_AMT,EMI Amount of the primary loan,
+SEC_INSTAL_AMT,EMI Amount of the secondary loan,
+NEW_ACCTS_IN_LAST_SIX_MONTHS,New loans taken by the customer in last 6 months before the disbursment,
+DELINQUENT_ACCTS_IN_LAST_SIX_MONTHS,Loans defaulted in the last 6 months,
+AVERAGE_ACCT_AGE,Average loan tenure,
+CREDIT_HISTORY_LENGTH,Time since first loan,
+NO_OF_INQUIRIES,Enquries done by the customer for loans,
