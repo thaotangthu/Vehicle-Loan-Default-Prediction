@@ -1,37 +1,7 @@
-
-Thao Tang
-thaotangthu@gmail.com
-https://github.com/thaotangthu
-
-
 Capstone Project: VEHICLE LOAN DEFAULT PREDICTION 
 
-Documents in this project folder (excluding this README) include:
+This project is to predict vehicle loan default. The dataset was originally taken from [Kaggle](https://www.kaggle.com/datasets/avikpaul4u/vehicle-loan-default-prediction?select=train.csv).
 
+The dataset is pretty imbalanced and was trained on 4 models, namely Logistic Regression, Decision Tree, Random Forest and XGBoost. The model outputs indicate XGBoost at threshold **0.51** as the optimal model due to its highest F1 score of 0.4 on test set. Also, two most important features that are highly predictive are state id and credit score, which matches with EDA findings.
 
-* Capstone report
-—----------------------
-1. Thao Tang_Vehicle Loan Default Prediction_Report.pdf
-
-
-* The process in Jupyter Notebooks
-—----------------------
-2. Thao Tang_Vehicle Loan Default Prediction_Data_Cleaning_EDA.ipynb is for data cleaning and explanatory data analysis.
-3. Thao Tang_Vehicle Loan Default Prediction_Modelling.ipynb is for fitting models and predicting defaults.
-4. Thao Tang_Vehicle Loan Default Prediction_Clustering.ipynb is for depicting default borrowers.
-
-
-* Data files
-—----------------------
-5. Data_dictionary.csv 
-6. X_train_NEWWWWW.csv - This is X_train after cleaning and transformation.
-7. X_test_NEWWWWW.csv - This is X_test after cleaning and transformation.
-8. y_train.csv
-9. y_test.csv
-10. df_for_clustering.csv - This is cleaned and transformed data to be used for clustering.
-11. train.csv - This is raw data before cleaning.
-12. test.csv - This is raw data but comes without the answer key so it is not used in the project.
-
-* Required environment
-—----------------------
-13. environment.yml - This file features all necessary conda environments to run the notebooks.
+There are 84002 customers whom the model predicts that they should have defaulted but actually not. This implies that they are very likely to default in the future. Therefore, it is recommended to ask them to mortgage some sort of security against their loan as soon as possible.
